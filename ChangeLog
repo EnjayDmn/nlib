@@ -1,0 +1,583 @@
+2014-03-10 21:30  nils-1327
+
+	* api/htdocs/nlib.js:
+	  switcher from GET to POST XHR requests
+
+2014-03-07 22:36  nils-1327
+
+	* api/htdocs/nlib.js:
+	  re-added cyclic stringify object handling
+
+2014-03-07 14:01  nils-1327
+
+	* api/htdocs/nlib.js:
+	  changes
+
+2014-02-28 12:40  nils-1327
+
+	* api/htdocs/nlib.js:
+	  modifications
+
+2014-02-28 09:23  nils-1327
+
+	* api/htdocs/nlib.js:
+	  mods
+
+2014-02-28 09:18  nils-1327
+
+	* api/: NLIB/TableObject.pm, htdocs/nlib.js:
+	  mods
+
+2014-02-27 17:18  nils-1327
+
+	* api/: NLIB/DbConnector.pm, NLIB/Session.pm, NLIB/SubScope.pm,
+	  htdocs/nlib.js:
+	  diverse changes
+
+2014-02-18 14:25  nils-1327
+
+	* api/htdocs/nlib.js:
+	  addded updateView and rebind
+
+2014-02-14 15:32  nils-1327
+
+	* api/NLIB/TableObjectUser.pm:
+	  Made table property overridable
+
+2014-02-05 13:33  nils-1327
+
+	* TODO, api/NLIB/Session.pm, api/NLIB/TableObject.pm:
+	  Mods
+
+2014-02-05 00:05  nils-1327
+
+	* api/NLIB/TableObjectRequest.pm:
+	  Mods
+
+2014-02-04 10:28  nils-1327
+
+	* api/NLIB/Application.pm, scripts/rollout.sh:
+	  Implemented child session creation in constructor
+
+2014-02-04 09:42  nils-1327
+
+	* api/NLIB/Constants.pm:
+	  Extended exception types
+
+2014-02-04 00:17  nils-1327
+
+	* Makefile, api/NLIB/Session.pm, api/NLIB/SubScope.pm:
+	  Implemented session login handling and authentication update
+
+2014-02-03 22:30  nils-1327
+
+	* Makefile, sbin/reqgen/reqgen.csv:
+	  Some mods
+
+2014-02-03 22:30  nils-1327
+
+	* api/htdocs/nlib.js:
+	  Added debug functionality
+
+2014-02-03 14:11  nils-1327
+
+	* api/htdocs/nlib.js:
+	  Fixed IE8 XML HTTP handling
+
+2014-01-31 19:01  nils-1327
+
+	* Makefile, TODO, api/NLIB/Action.pm, api/NLIB/ActionDispatcher.pm,
+	  api/NLIB/ActionLogout.pm, api/NLIB/ActionWidgetState.pm,
+	  api/NLIB/Application.pm, api/NLIB/Constants.pm,
+	  api/NLIB/Content.pm, api/NLIB/ContentLogin.pm,
+	  api/NLIB/ContentLogout.pm, api/NLIB/ContentWidgetState.pm,
+	  api/NLIB/DbConnector.pm, api/NLIB/Dispatcher.pm,
+	  api/NLIB/Exception.pm, api/NLIB/Flow.pm,
+	  api/NLIB/FlowAuthenticate.pm, api/NLIB/FlowDispatcher.pm,
+	  api/NLIB/JsonPage.pm, api/NLIB/Session.pm,
+	  api/NLIB/TableObject.pm, api/NLIB/TableObjectRequest.pm,
+	  api/NLIB/TableObjectUser.pm, api/NLIB/Template.pm,
+	  api/tpl/nlibMainTemplate.htm, bin/nlib.cgi,
+	  doc/nlib-kommunikationsstruktur.lyx,
+	  doc/flowdefs/flow_anonymous.dot,
+	  sbin/reqgen/generate_requests.pl, sbin/reqgen/reqgen.csv,
+	  scripts/rollout.sh, sql/nlib-001.sql:
+	  mods
+
+2014-01-31 18:55  nils-1327
+
+	* api/htdocs/nlib-app.js:
+	  added
+
+2014-01-31 18:55  nils-1327
+
+	* api/htdocs/nlib.js:
+	  Added ie8 Event handler
+
+2014-01-30 11:22  nils-1327
+
+	* doc/flowdefs/parse_flow.pl, sbin/reqgen/generate_requests.pl,
+	  sbin/reqgen/reqgen.csv, sbin/reqgen/reqgen.pl:
+	  added
+
+2014-01-22 13:38  nils-1327
+
+	* api/NLIB/: ContentLogin.pm, ContentLogout.pm:
+	  added
+
+2014-01-22 13:37  nils-1327
+
+	* api/NLIB/ActionLogin.pm, api/NLIB/ActionLogout.pm,
+	  api/NLIB/Flow.pm, api/NLIB/FlowAuthenticate.pm,
+	  doc/application.dot, doc/flowdefs/parse_flow.pl,
+	  sql/nlib-001.sql:
+	  Example FlowAuthenticate implementation
+
+2014-01-18 01:30  nils-1327
+
+	* api/NLIB/ActionDispatcher.pm, api/NLIB/Dispatcher.pm,
+	  api/NLIB/Flow.pm, api/NLIB/FlowAuthenticate.pm,
+	  api/NLIB/FlowDispatcher.pm, api/NLIB/Session.pm,
+	  api/NLIB/SubScope.pm, api/NLIB/TableObject.pm, bin/nlib.cgi:
+	  Implemented first WebFlow
+
+2014-01-17 14:41  nils-1327
+
+	* api/NLIB/ActionDispatcher.pm, api/NLIB/FlowAuthenticate.pm,
+	  bin/nlib.cgi:
+	  Implementing first flow action (login)
+
+2014-01-17 12:59  nils-1327
+
+	* api/htdocs/htm/widgetLogin.htm:
+	  added
+
+2014-01-17 12:58  nils-1327
+
+	* README, TODO, api/htdocs/nlib.js, api/tpl/nlibMainTemplate.htm,
+	  scripts/rollout.sh:
+	  Modifications
+
+2014-01-15 14:02  nils-1327
+
+	* api/htdocs/: nlib.js, htm/login.htm:
+	  View handling tests
+
+2014-01-15 09:22  nils-1327
+
+	* api/: NLIB/JsonPage.pm, htdocs/nlib.js:
+	  mods
+
+2014-01-14 14:12  nils-1327
+
+	* doc/nlib-kommunikationsstruktur.lyx:
+	  added
+
+2014-01-14 14:12  nils-1327
+
+	* api/NLIB/Session.pm, api/htdocs/nlib.js, bin/nlib.cgi,
+	  sql/nlib-001.sql:
+	  fixed cookie jar handling. changed flow_status table. moved js
+	  object methods to prototype property
+
+2014-01-13 08:09  nils-1327
+
+	* TODO, api/NLIB/Action.pm:
+	  Cookie missing in JsonPage?
+
+2014-01-09 14:04  nils-1327
+
+	* api/NLIB/JsonPage.pm:
+	  added
+
+2014-01-09 14:03  nils-1327
+
+	* api/NLIB.pm, api/NLIB/Action.pm, api/NLIB/Content.pm,
+	  api/NLIB/Session.pm, api/htdocs/nlib.js, bin/nlib.cgi:
+	  Separated between json and html content page
+
+2014-01-08 21:10  nils-1327
+
+	* api/htdocs/nlib.js, scripts/rollout.sh:
+	  something
+
+2014-01-08 13:43  nils-1327
+
+	* api/htdocs/htm/login.htm, doc/application.dot:
+	  added
+
+2014-01-08 13:42  nils-1327
+
+	* README, api/NLIB/Content.pm, api/NLIB/Dispatcher.pm,
+	  api/htdocs/nlib.js, api/tpl/nlibMainTemplate.htm, bin/nlib.cgi:
+	  Widget communication
+
+2014-01-07 14:25  nils-1327
+
+	* api/htdocs/: tempo.js, htm/ol.htm:
+	  added
+
+2014-01-07 14:24  nils-1327
+
+	* api/htdocs/nlib.js, api/tpl/nlibException.htm,
+	  api/tpl/nlibMainTemplate.htm, scripts/rollout.sh:
+	  Added Tempo template handling
+
+2014-01-06 22:56  nils-1327
+
+	* api/: NLIB/Content.pm, htdocs/nlib.js, tpl/nlibMainTemplate.htm:
+	  JS
+
+2014-01-06 19:04  nils-1327
+
+	* api/: NLIB/Content.pm, htdocs/nlib.js:
+	  JS tests
+
+2014-01-06 14:58  nils-1327
+
+	* api/htdocs/nlib.js:
+	  added
+
+2014-01-06 14:58  nils-1327
+
+	* TODO, api/tpl/nlibException.htm, api/tpl/nlibMainTemplate.htm:
+	  JS tests
+
+2014-01-05 23:20  nils-1327
+
+	* api/NLIB/TableObjectRequest.pm, doc/flowdefs/flow.dot:
+	  added
+
+2014-01-05 23:19  nils-1327
+
+	* TODO, api/NLIB.pm, api/NLIB/Action.pm,
+	  api/NLIB/ActionDispatcher.pm, api/NLIB/Application.pm,
+	  api/NLIB/Constants.pm, api/NLIB/Content.pm,
+	  api/NLIB/Dispatcher.pm, api/NLIB/Flow.pm,
+	  api/NLIB/FlowAuthenticate.pm, api/NLIB/Object.pm,
+	  api/NLIB/Page.pm, bin/nlib.cgi, sql/nlib-001.sql:
+	  Holiday modifications
+
+2013-12-31 01:48  nils-1327
+
+	* api/NLIB/ActionLogin.pm, api/NLIB/ActionLogout.pm,
+	  api/NLIB/FlowAuthenticate.pm, doc/flowdefs/README,
+	  doc/flowdefs/flow_002.dot, doc/flowdefs/flow_authenticate.dot,
+	  doc/flowdefs/parse_flow.pl, scripts/genpass.pl:
+	  added
+
+2013-12-31 01:47  nils-1327
+
+	* api/NLIB.pm, api/NLIB/ActionDispatcher.pm,
+	  api/NLIB/Dispatcher.pm, api/NLIB/Flow.pm, doc/flowdefs/Makefile,
+	  doc/flowdefs/flow_001.dot, sbin/reqgen/README,
+	  sbin/reqgen/reqgen.csv, sql/nlib-001.sql, sql/requests.sql:
+	  Diverse flow things
+
+2013-12-20 14:36  nils-1327
+
+	* api/NLIB/FlowArticle.pm, sbin/reqgen/README,
+	  sbin/reqgen/flowAction.ods, sbin/reqgen/mat2flow.pl,
+	  sbin/reqgen/matrixFlowAction.csv, sbin/reqgen/reqgen-old.csv:
+	  added
+
+2013-12-20 14:35  nils-1327
+
+	* api/NLIB/Dispatcher.pm, api/NLIB/Flow.pm,
+	  sbin/reqgen/generate_requests.pl, sbin/reqgen/reqgen.csv,
+	  sbin/reqgen/reqgen.pl, sql/nlib-001.sql, sql/requests.sql:
+	  Verschiedene Ansätze zur Implementierung von Inzidenzmatrizen
+
+2013-12-19 16:38  nils-1327
+
+	* api/NLIB/Flow.pm, doc/flowdefs/Makefile,
+	  doc/flowdefs/flow_001.dot:
+	  added
+
+2013-12-19 16:38  nils-1327
+
+	* api/: NLIB.pm, NLIB/Dispatcher.pm, NLIB/Page.pm,
+	  NLIB/TableObject.pm:
+	  Diverses
+
+2013-12-18 13:26  nils-1327
+
+	* api/htdocs/jquery-1.10.2.js, api/htdocs/jquery.base64.js,
+	  sbin/reqgen/generate_requests.pl, sbin/reqgen/reqgen.csv:
+	  added
+
+2013-12-18 13:25  nils-1327
+
+	* TODO, api/NLIB/ActionDispatcher.pm, api/NLIB/Application.pm,
+	  api/NLIB/Dispatcher.pm, api/NLIB/FlowDispatcher.pm,
+	  api/NLIB/PersonalActionDispatcher.pm,
+	  api/NLIB/PersonalFlowDispatcher.pm, api/NLIB/SubScope.pm,
+	  api/tpl/nlibException.htm, api/tpl/nlibMainTemplate.htm,
+	  sbin/reqgen/reqgen.pl, scripts/rollout.sh, sql/nlib-001.sql,
+	  sql/requests.sql:
+	  Refined rollout mech according to action key handling and new
+	  action definition
+
+	  Base64 encoding and decoding examples in url handling
+
+	  Request generation tests
+
+2013-12-18 09:50  nils-1327
+
+	* doc/: polling.odg, polling.png:
+	  added
+
+2013-12-17 15:09  nils-1327
+
+	* sbin/reqgen/reqgen.pl, sql/requests.sql:
+	  added
+
+2013-12-17 15:08  nils-1327
+
+	* api/NLIB/Application.pm, api/NLIB/Cgi.pm, api/NLIB/Dispatcher.pm,
+	  api/NLIB/Object.pm, api/NLIB/SubScope.pm, sql/nlib-001.sql:
+	  Request structure defiition and first implementation
+
+2013-12-16 21:47  nils-1327
+
+	* api/NLIB/Dispatcher.pm:
+	  added
+
+2013-12-16 21:47  nils-1327
+
+	* api/NLIB.pm, api/NLIB/ActionDispatcher.pm,
+	  api/NLIB/Application.pm, api/NLIB/Cgi.pm, api/NLIB/Constants.pm,
+	  api/NLIB/FlowDispatcher.pm, sql/nlib-001.sql:
+	  Some modification
+
+2013-12-16 15:28  nils-1327
+
+	* api/NLIB/ActionDispatcher.pm, api/NLIB/FlowDispatcher.pm,
+	  api/NLIB/PersonalActionDispatcher.pm,
+	  api/NLIB/PersonalFlowDispatcher.pm, doc/application_flow.odg:
+	  added
+
+2013-12-16 15:27  nils-1327
+
+	* TODO, api/NLIB.pm, api/NLIB/Application.pm, api/NLIB/Cgi.pm,
+	  api/NLIB/Constants.pm, api/NLIB/DbConnector.pm,
+	  api/NLIB/Exception.pm, api/NLIB/Page.pm, api/NLIB/Session.pm,
+	  api/NLIB/TableObject.pm, bin/nlib.cgi:
+	  Implemented Session flavour handling and began action dispatch
+	  handling
+
+2013-12-16 09:02  nils-1327
+
+	* doc/application_flow.odg:
+	  Added flavour description
+
+2013-12-16 08:48  nils-1327
+
+	* api/NLIB/Application.pm, api/NLIB/Cgi.pm, api/NLIB/Constants.pm,
+	  api/NLIB/Object.pm, api/NLIB/Page.pm, api/NLIB/Session.pm,
+	  api/NLIB/SubScope.pm, bin/nlib.cgi, sql/nlib-001.sql:
+	  Diverse session handling things
+
+2013-12-14 01:01  nils-1327
+
+	* api/NLIB/Session.pm, api/NLIB/SubScope.pm, scripts/rollout.sh,
+	  sql/nlib-001.sql, tests/aes.pl:
+	  Integrated crypt and cipher handling in sub scope
+
+2013-12-13 14:44  nils-1327
+
+	* sql/nlib-001.sql, tests/aes.pl:
+	  added
+
+2013-12-13 14:44  nils-1327
+
+	* README, api/NLIB/Application.pm, api/NLIB/TableObject.pm,
+	  scripts/modtree:
+	  Implemented and tested TableObject get set functionality.
+
+	  Some modifications in modtree to handle Exporter module
+
+	  Some other things
+
+2013-12-12 23:28  nils-1327
+
+	* Makefile, api/NLIB/Application.pm, api/NLIB/Constants.pm,
+	  api/NLIB/Exception.pm, api/NLIB/Object.pm,
+	  api/NLIB/TableObject.pm, bin/nlib.cgi, scripts/rollout.sh:
+	  Works on TableObject DB Communication automatism.
+
+2013-12-12 16:27  nils-1327
+
+	* bin/nlib.sh, doc/application_flow.odg,
+	  tests/test-db-handling2.pl:
+	  added
+
+2013-12-12 16:26  nils-1327
+
+	* api/NLIB/Application.pm, api/NLIB/Cgi.pm, api/NLIB/Constants.pm,
+	  api/NLIB/DbConnector.pm, api/NLIB/Object.pm, api/NLIB/Session.pm,
+	  api/NLIB/TableObject.pm, bin/nlib.cgi,
+	  doc/object_model_layout.odg:
+	  basic implementation of table object etc
+
+2013-12-11 23:39  nils-1327
+
+	* scripts/rollout.sh:
+	  added
+
+2013-12-11 23:39  nils-1327
+
+	* Makefile, README, api/NLIB/Application.pm, api/NLIB/Constants.pm,
+	  api/NLIB/DbConnector.pm, api/NLIB/Session.pm,
+	  api/NLIB/Template.pm, bin/nlib.cgi:
+	  Setup rollout script for local rollout.  Managed exception and
+	  save exception handling
+
+2013-12-11 14:04  nils-1327
+
+	* api/tpl/nlibException.htm:
+	  added
+
+2013-12-11 14:04  nils-1327
+
+	* Makefile.inc, api/NLIB/Action.pm, api/NLIB/Application.pm,
+	  api/NLIB/Cgi.pm, api/NLIB/Constants.pm, api/NLIB/Content.pm,
+	  api/NLIB/DbConnector.pm, api/NLIB/Exception.pm,
+	  api/NLIB/Object.pm, api/NLIB/Page.pm, api/NLIB/SubScope.pm,
+	  api/NLIB/Template.pm, bin/nlib.cgi, t/Makefile,
+	  t/NLIB/Action.t.inc, t/NLIB/Exception.t.inc:
+	  Works...
+
+2013-12-11 00:18  nils-1327
+
+	* TODO:
+	  Added implementaiton info about Exceptions
+
+2013-12-11 00:17  nils-1327
+
+	* api/NLIB/Action.pm, api/NLIB/Content.pm, api/NLIB/Exception.pm,
+	  api/NLIB/Page.pm, api/NLIB/SubScope.pm, api/NLIB/Template.pm,
+	  api/NLIB/WebFlowStep.pm, api/tpl/nlibMainTemplate.htm,
+	  t/NLIB/Action.t.inc, t/NLIB/Content.t.inc,
+	  t/NLIB/Exception.t.inc, t/NLIB/Page.t.inc, t/NLIB/Session.t.inc,
+	  t/NLIB/SubScope.t.inc, t/NLIB/Template.t.inc,
+	  t/NLIB/WebFlowStep.t.inc:
+	  added
+
+2013-12-11 00:16  nils-1327
+
+	* api/NLIB.pm, api/NLIB/Application.pm, api/NLIB/Constants.pm,
+	  api/NLIB/Object.pm, api/NLIB/Session.pm, api/NLIB/TableObject.pm,
+	  scripts/generate-tests.pl, t/NLIB/Object.t.inc:
+	  Implemented SubScope classes and tests
+
+2013-12-10 14:06  nils-1327
+
+	* api/NLIB/Cgi.pm, api/NLIB/Session.pm,
+	  doc/object_model_layout.odg, t/NLIB/Cgi.t.inc:
+	  added.
+
+2013-12-10 14:06  nils-1327
+
+	* README, api/NLIB.pm, api/NLIB/Application.pm,
+	  api/NLIB/Collection.pm, api/NLIB/Constants.pm,
+	  api/NLIB/DbConnector.pm, api/NLIB/Object.pm,
+	  api/NLIB/TableObject.pm, scripts/generate-tests.pl, t/Makefile,
+	  t/NLIB/Application.t.inc, t/NLIB/Collection.t.inc,
+	  t/NLIB/Constants.t.inc, t/NLIB/DbConnector.t.inc,
+	  t/NLIB/Object.t.inc, t/NLIB/TableObject.t.inc:
+	  Works on basic framework classes and tests
+
+2013-12-10 09:42  nils-1327
+
+	* Makefile, Makefile.inc:
+	  Some target modifications
+
+2013-12-09 16:25  nils-1327
+
+	* Makefile, Makefile.inc, scripts/modtree:
+	  Minor mods
+
+2013-12-09 13:54  nils-1327
+
+	* api/NLIB/DbConnector.pm, scripts/doc.sh, scripts/modtree,
+	  scripts/prepare_doc.sh, t/NLIB/Application.t.inc,
+	  t/NLIB/Collection.t.inc, t/NLIB/Constants.t.inc,
+	  t/NLIB/DbConnector.t.inc, t/NLIB/Object.t.inc,
+	  t/NLIB/TableObject.t.inc:
+	  added
+
+2013-12-09 13:53  nils-1327
+
+	* Makefile, api/NLIB.pm, api/NLIB/Application.pm,
+	  api/NLIB/Collection.pm, api/NLIB/Object.pm,
+	  scripts/generate-tests.pl, t/Makefile:
+	  Implemented apidoc target
+
+2013-12-08 23:14  nils-1327
+
+	* README:
+	  Modification
+
+2013-12-08 23:13  nils-1327
+
+	* Makefile, Makefile.inc, api/NLIB/Constants.pm,
+	  scripts/generate-tests.pl, t/Makefile, tests/test-db-handling.pl,
+	  tests/test-db-handling.sql:
+	  added
+
+2013-12-08 23:12  nils-1327
+
+	* README, api/NLIB.pm, api/NLIB/Application.pm,
+	  api/NLIB/Collection.pm, api/NLIB/Object.pm,
+	  api/NLIB/TableObject.pm:
+	  Works on test system
+
+2013-12-07 20:38  nils-1327
+
+	* README:
+	  README stuff
+
+2013-12-07 17:39  nils-1327
+
+	* README:
+	  Readme information
+
+2013-12-07 16:45  nils-1327
+
+	* sbin/tog/README:
+	  added
+
+2013-12-07 16:45  nils-1327
+
+	* README:
+	  Additional README information
+
+2013-12-07 09:20  nils-1327
+
+	* api/NLIB/Collection.pm:
+	  Added
+
+2013-12-07 09:19  nils-1327
+
+	* README, api/NLIB/Object.pm:
+	  Wrote readme
+
+2013-12-06 17:39  nils-1327
+
+	* README, TODO, bin/nlib.cgi:
+	  Some README information
+
+	  Modified imclude path in nlib.cgi
+
+2013-12-06 17:24  nils-1327
+
+	* README:
+	  Corrected email address
+
+2013-12-06 17:23  nils-1327
+
+	* README, TODO, api/NLIB.pm, api/NLIB/Application.pm,
+	  api/NLIB/Object.pm, api/NLIB/TableObject.pm, bin/nlib.cgi:
+	  added
+
