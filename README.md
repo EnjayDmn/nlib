@@ -1,1 +1,3 @@
-# nlib application framework
+#
+# NLIB Perl Application Framework
+#
