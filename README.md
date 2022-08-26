@@ -2,7 +2,7 @@
 # NLIB Perl Application Framework
 #
 
-This is a very hand-crafted application framework.
+This is a very hand-crafted application framework purely written in Perl.
 
 Features:
 
